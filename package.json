@@ -1,0 +1,19 @@
+{
+  "name": "jquery-text-resizer",
+  "version": "1.0.0",
+  "description": "A simple auto-resizer for text based on window size. Requires jquery.",
+  "main": "jquery-text-resizer.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Candeles/jquery-text-resizer.git"
+  },
+  "author": "Michael Candels (Candeles)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Candeles/jquery-text-resizer/issues"
+  },
+  "homepage": "https://github.com/Candeles/jquery-text-resizer#readme"
+}
