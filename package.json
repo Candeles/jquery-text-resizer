@@ -1,6 +1,6 @@
 {
   "name": "jquery-text-resizer",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A simple auto-resizer for text based on window size. Requires jquery.",
   "main": "jquery-text-resizer.js",
   "scripts": {

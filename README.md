@@ -14,21 +14,18 @@ Use the module as such:
     jtr(elementsToAutoResize);
 
 
-Your elements will now automatically resize their text based on window size. The algorithm is simple, either:
+Your elements will now automatically resize their text based on window size. The algorithm is simple, if the width of the window is larger than the height:
 
 
-    <scale factor, s> * <magic number .005> * <window height> / <window width>
+    <scale factor, s> * <magic number .005> * <window height>^2 / <window width>
 
 
-or
+or, if the width is less than or equal to the height:
 
 
-    <scale factor, s> * <magic number .005> * <window width> / <window height>
-
-
-depending on whether the width or the height is largest.
+    <scale factor, s> * <magic number .005> * <window width>
 
 
 ## Moving forward
 
-I might try to make a version that doesn't require jquery.
+I made a version that doesn't require jquery: http://github.com/Candeles/native-text-resizer
